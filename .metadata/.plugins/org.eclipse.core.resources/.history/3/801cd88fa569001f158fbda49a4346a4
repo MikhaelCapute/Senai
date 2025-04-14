@@ -1,0 +1,17 @@
+package application;
+
+import model.Aluno;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		
+		
+		String nome = "Maria Lima";
+		double[] notas = {8,9.5};
+		
+		Aluno al = new Aluno(nome, notas);
+		
+		
+	}
+}
